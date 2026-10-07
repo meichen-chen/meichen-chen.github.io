@@ -1,7 +1,4 @@
+# Research has no page yet: "#" keeps the button from switching pages.
+# When the research page exists, change it back to "/research/".
 - title: "Research"
-  href: "/research/"
-
-- title: "White Papers"
-  href: "/white_papers/"
-
-
+  href: "#"

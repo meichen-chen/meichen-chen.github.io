@@ -17,6 +17,8 @@ $grey-dark:  #444;
 $grey-vdark: #222;
 $blue:       #0091ed;
 $orange:     #ca6c18;
+$yale-blue:  #00356b;
+$yale-link:  #286dc0;
 $red:        #b6321c;
 $white: #FFFFFF;
 $black: #000000;
@@ -27,8 +29,8 @@ $dark-background:   darken($background, 5%);
 $text-color:        $black;
 $text-dark: $black;
 $text-light-color:  $black;
-$url-color:         $red;
-$url-hover-color:   $orange;
+$url-color:         $yale-link;
+$url-hover-color:   $yale-blue;
 $header-text-color: $black;
 $header-hover-color:$text-color;
 $header-hover-url:  $url-color;
@@ -48,6 +50,11 @@ $desktop:          50em;
 
 .text-justify {
   text-align: justify;
+}
+
+// Placeholder links: an <a> with no href keeps the link colour but goes nowhere.
+a:not([href]) {
+  cursor: default;
 }
 
 

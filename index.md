@@ -1,21 +1,21 @@
 ---
 layout: page
-title: Professor of Statistics  
+title: Ph.D. Candidate in Economics
 permalink: /
 ---
-<br> 
+<br>
 
-{% include image.html url="images/photo.jpg" caption="" width="500px" align="left" %}
+<img src="images/photo.jpg" width="400" style="float:left; margin:0 1em 1em 0;" alt="" />
 
-
-John A. Smith [[CV]]<br />
-Professor of Statistics <br />
-[University of Doubt], MA <br />
+**Meichen Chen** [<a>CV</a>]<br />
+Ph.D. Candidate in Economics <br />
+[Yale University] <br />
 [[email]][[linkedin]][[github]] <br />
 
-[CV]: {{ site.baseurl }}/assets/resume.pdf
-[University of Doubt]: https://doubt.edu
-[email]: mailto:email@doubt.edu
-[twitter]: https://twitter.com/<twitter_handle>
-[linkedin]: https://www.linkedin.com/in/<linkedin_handle>
-[github]: https://github.com/<github_handle>
+**Job Market Candidate, 2026–2027**<br />
+**Research Areas**: Environmental Economics, Industrial Organization, Development Economics, Applied Econometrics
+
+[Yale University]: https://economics.yale.edu/
+[email]: mailto:meichen.chen@yale.edu
+[linkedin]: https://www.linkedin.com/in/meichen-chen-463a7a171/
+[github]: https://github.com/meichen-chen

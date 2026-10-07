@@ -3,7 +3,8 @@
 ################################################
 
 permalink: blog/:year/:month/:day/:title
-exclude: ["Makefile", "README.md"]
+# research.md, white_papers.md and assets are template samples: kept in the repo, not published.
+exclude: ["Makefile", "README.md", "research.md", "white_papers.md", "assets"]
 
 # Build settings
 markdown: kramdown
@@ -30,27 +31,21 @@ plugins:
 # CUSTOMIZATION
 #################################################
 
-title: John A. Smith
-description: John A. Smith | Professor of Statistics | University of Doubt
+title: Meichen Chen
+description: Meichen Chen | Ph.D. Candidate in Economics | Yale University
 
-url: "https://sylvaingchassang.github.io/academic_website"
-baseurl: "https://sylvaingchassang.github.io/academic_website"
+url: "https://meichen-chen.github.io"
+baseurl: ""
 
 # start year for copyright
-start_year: "2000"
+start_year: "2026"
 
 colors:
   background: "#FFFFFF;"
   separator: "#042352;"
 
 author:
-    name: "John A. Smith"
+    name: "Meichen Chen"
 
 # manage your co-authors from here
 coauthors:
-  a_adam:
-      name: Alice Adam
-      web: https://www.aliceadamurl.org
-  b_brian:
-      name: Bob Brian
-      web: https://www.robertbrianurl.org
