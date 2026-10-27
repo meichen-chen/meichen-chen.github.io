@@ -7,7 +7,7 @@ permalink: /
 
 <img src="images/photo.jpg" width="400" style="float:left; margin:0 1em 1em 0;" alt="" />
 
-**Meichen Chen** [<a>CV</a>]<br />
+**Meichen Chen** [[CV]]<br />
 Ph.D. Candidate in Economics <br />
 [Yale University] <br />
 [[email]][[linkedin]][[github]] <br />
@@ -16,6 +16,7 @@ Ph.D. Candidate in Economics <br />
 **Research Areas**: Environmental Economics, Industrial Organization, Development Economics, Applied Econometrics
 
 [Yale University]: https://economics.yale.edu/
+[CV]: Chen_Meichen_CV.pdf
 [email]: mailto:meichen.chen@yale.edu
 [linkedin]: https://www.linkedin.com/in/meichen-chen-463a7a171/
 [github]: https://github.com/meichen-chen
