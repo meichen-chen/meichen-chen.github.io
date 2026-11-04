@@ -11,8 +11,8 @@ title: Research
    with [Sylvain Chassang] and [Michal Kolesár]
 
    <div class="paper-buttons">
-   <button type="button" class="paper-button" aria-expanded="false" onclick="toggleAbstract(this)">Abstract</button>
-   <a class="paper-button" href="https://www.sylvainchassang.org/assets/papers/option_value_of_change.pdf">PDF</a>
+   <button type="button" class="paper-button" aria-expanded="false" onclick="toggleAbstract(this)">[Abstract]</button>
+   <a class="paper-button" href="https://www.sylvainchassang.org/assets/papers/option_value_of_change.pdf">[PDF]</a>
    </div>
    <div class="paper-abstract" hidden>
    When treatment effects are heterogeneous across units but auto-correlated over time, there is value to dynamic treatment rules that assign treatment status on the basis of past treatment outcomes. Treatment has an option value. The challenge is that correlation in estimated treatment effects may be driven by correlation in errors rather than correlation in treatment effects. This paper shows how to estimate the value of dynamic assignment rules in observational data, and applies the methodology to Operation Ceasefire, a widely adopted homicide reduction program. Using a newly constructed data-set of adoption events across the US, we argue that programs inspired by Operation Ceasefire generate statistically insignificant reductions in homicide rates on average, but that their effectiveness is significantly improved by dynamic adoption. A naive approach would considerably overestimate these benefits.
@@ -22,7 +22,7 @@ title: Research
    with [Nico Lukas Kasparetz]
 
    <div class="paper-buttons">
-   <button type="button" class="paper-button" aria-expanded="false" onclick="toggleAbstract(this)">Abstract</button>
+   <button type="button" class="paper-button" aria-expanded="false" onclick="toggleAbstract(this)">[Abstract]</button>
    <span class="paper-note">Draft coming soon</span>
    </div>
    <div class="paper-abstract" hidden>
@@ -36,7 +36,7 @@ title: Research
    with [Xiang Ma] and [Junming Zhu]
 
    <div class="paper-buttons">
-   <button type="button" class="paper-button" aria-expanded="false" onclick="toggleAbstract(this)">Abstract</button>
+   <button type="button" class="paper-button" aria-expanded="false" onclick="toggleAbstract(this)">[Abstract]</button>
    </div>
    <div class="paper-abstract" hidden>
    When sector-specific environmental policies operate alongside aggregate emissions targets, additional abatement induced in one sector may reduce the abatement required elsewhere. We examine the incidence of aggregate targets when there are concurrent sector-specific policies. Our setting is China’s Eleventh Five-Year Plan, under which cities faced similar percentage reduction targets for SO₂ emissions alongside substantial abatement requirements for power plants. We find that cities achieved similar proportional reductions in aggregate SO₂ emissions, with smaller reductions among other industrial firms offsetting larger reductions from power plants nearly one-for-one. Greater exposure to power-sector requirements reduced declines in input demand and output among other industrial firms under the aggregate targets, with effects varying systematically with firm characteristics. Together, the findings suggest that sector-specific regulations can largely reallocate, rather than increase, aggregate abatement while substantially changing the incidence of compliance.

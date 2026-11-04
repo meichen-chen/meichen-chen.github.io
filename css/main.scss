@@ -72,31 +72,26 @@ a:not([href]) {
   margin-bottom: 0;
 }
 .paper-buttons {
-  margin-top: 0.3em;
+  margin-top: 0;
 }
+// [Abstract] and [PDF]: plain text links in the site's link colours, like every other link.
 .paper-button {
-  display: inline-block;
-  font-family: inherit;
-  font-size: $small-font-size;
-  line-height: 1.4;
-  padding: 0.1em 0.8em;
-  margin-right: 0.4em;
-  border: 1px solid $yale-link;
-  border-radius: 4px;
-  background: $white;
+  display: inline;
+  font: inherit;
+  padding: 0;
+  margin: 0 0.4em 0 0;
+  border: 0;
+  background: none;
   color: $yale-link;
   text-decoration: none;
   cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
 }
-.paper-button:hover,
-.paper-button[aria-expanded="true"] {
-  background: $yale-blue;
-  border-color: $yale-blue;
-  color: $white;
-  text-decoration: none;
+.paper-button:hover {
+  color: $yale-blue;
 }
 .paper-note {
-  font-size: $small-font-size;
   font-style: italic;
 }
 .paper-abstract {
