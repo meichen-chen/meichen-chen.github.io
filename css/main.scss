@@ -74,12 +74,12 @@ a:not([href]) {
 .paper-buttons {
   margin-top: 0;
 }
-// [Abstract] and [PDF]: plain text links in the site's link colours, like every other link.
+// [Abstract] and [PDF]: black brackets around a link-coloured word, like [CV] on the home page.
 .paper-button {
   display: inline;
   font: inherit;
   padding: 0;
-  margin: 0 0.4em 0 0;
+  margin: 0;
   border: 0;
   background: none;
   color: $yale-link;
