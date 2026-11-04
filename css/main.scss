@@ -65,10 +65,13 @@ a:not([href]) {
   margin-top: 0.55em;
 }
 // Each paper: title, coauthors and buttons on consecutive lines; the same gap after every paper.
+// Spacing as on sohyeyoon.com/research: 1.6 line spacing within a paper, 2em after it.
 .paper-list > li {
-  margin-bottom: $spacing-unit;
+  margin-bottom: 2em;
+  line-height: 1.6;
 }
-.paper-list p {
+// ".post" is needed: the template's ".post p" gap comes later in the file and would win otherwise.
+.post .paper-list p {
   margin-bottom: 0;
 }
 .paper-buttons {
@@ -94,10 +97,12 @@ a:not([href]) {
 .paper-note {
   font-style: italic;
 }
+// Abstract as on sohyeyoon.com/research: 1em below the links, indented, smaller and dark grey.
 .paper-abstract {
-  margin-top: 0.5em;
-  font-size: $small-font-size;
-  text-align: justify;
+  margin-top: 1em;
+  margin-left: 1em;
+  font-size: 0.9em;
+  color: $grey-dark;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
