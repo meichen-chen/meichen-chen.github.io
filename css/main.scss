@@ -97,12 +97,14 @@ a:not([href]) {
 .paper-note {
   font-style: italic;
 }
-// Abstract as on sohyeyoon.com/research: 1em below the links, indented, smaller and dark grey.
+// Abstract as on sohyeyoon.com/research: 1em below the links, indented, smaller and dark grey;
+// justified (aligned on both sides).
 .paper-abstract {
   margin-top: 1em;
   margin-left: 1em;
   font-size: 0.9em;
   color: $grey-dark;
+  text-align: justify;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
