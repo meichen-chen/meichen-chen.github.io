@@ -3,8 +3,8 @@
 ################################################
 
 permalink: blog/:year/:month/:day/:title
-# research.md, white_papers.md and assets are template samples: kept in the repo, not published.
-exclude: ["Makefile", "README.md", "research.md", "white_papers.md", "assets"]
+# white_papers.md and assets are template samples: kept in the repo, not published.
+exclude: ["Makefile", "README.md", "white_papers.md", "assets"]
 
 # Build settings
 markdown: kramdown

@@ -1,4 +1,2 @@
-# Research has no page yet: "#" keeps the button from switching pages.
-# When the research page exists, change it back to "/research/".
 - title: "Research"
-  href: "#"
+  href: "/research/"

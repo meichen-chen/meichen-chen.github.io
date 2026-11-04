@@ -58,6 +58,53 @@ a:not([href]) {
 }
 
 
+// Research page: Abstract / PDF buttons under each paper.
+// Research page: the layout's line break already sits above the first heading,
+// so its top margin is cut to make the gap match the one above "Work in Progress".
+#working-papers {
+  margin-top: 0.55em;
+}
+// Each paper: title, coauthors and buttons on consecutive lines; the same gap after every paper.
+.paper-list > li {
+  margin-bottom: $spacing-unit;
+}
+.paper-list p {
+  margin-bottom: 0;
+}
+.paper-buttons {
+  margin-top: 0.3em;
+}
+.paper-button {
+  display: inline-block;
+  font-family: inherit;
+  font-size: $small-font-size;
+  line-height: 1.4;
+  padding: 0.1em 0.8em;
+  margin-right: 0.4em;
+  border: 1px solid $yale-link;
+  border-radius: 4px;
+  background: $white;
+  color: $yale-link;
+  text-decoration: none;
+  cursor: pointer;
+}
+.paper-button:hover,
+.paper-button[aria-expanded="true"] {
+  background: $yale-blue;
+  border-color: $yale-blue;
+  color: $white;
+  text-decoration: none;
+}
+.paper-note {
+  font-size: $small-font-size;
+  font-style: italic;
+}
+.paper-abstract {
+  margin-top: 0.5em;
+  font-size: $small-font-size;
+  text-align: justify;
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
     "header",

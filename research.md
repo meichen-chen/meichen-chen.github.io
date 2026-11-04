@@ -2,46 +2,67 @@
 layout: page
 permalink: /research/
 title: Research
-working_papers: 
-
-    - title:   "Doubt Everything"
-      coauthors:
-        - a_adam
-        - b_brian
-      year:  2020
-      internal: True
-      url:   "/assets/papers/paper3.pdf"
-      note: "Who knows? Anything?"
-      journal: "R&R, Journal of Despair"
-
-pubs:
-   
-    - url: "/assets/papers/paper1.pdf"
-      internal: True
-      title: "Doubt Others"
-      coauthors: 
-        - b_brian
-      journal: Journal of Self-Confidence
-      year: 2015
-      note: "Who do they think they are?"
-      
-    - title:   "Doubt Yourself" 
-      journal: "Annals of Anguish"
-      coauthors:
-        - a_adam
-      year: 2010
-      internal: True
-      repo: https://github.com/<github_repo>/doubtyourself
-      url:   "/assets/papers/paper2.pdf"
-      note: "What do you know anyway?"
-
 ---
-<br>
 ## Working Papers
 
-{% include cites.html articles=page.working_papers %}
+1. **Dirty Trade: How Used Vehicle Trade Mediates Clean Transitions (Job Market Paper) (2026)**
 
-## Publications
+2. **Measuring the Option Value of Change: Theory and an Application to Operation Ceasefire (2026)**<br />
+   with [Sylvain Chassang] and [Michal Kolesár]
 
-{% include cites.html articles=page.pubs %}
+   <div class="paper-buttons">
+   <button type="button" class="paper-button" aria-expanded="false" onclick="toggleAbstract(this)">Abstract</button>
+   <a class="paper-button" href="https://www.sylvainchassang.org/assets/papers/option_value_of_change.pdf">PDF</a>
+   </div>
+   <div class="paper-abstract" hidden>
+   When treatment effects are heterogeneous across units but auto-correlated over time, there is value to dynamic treatment rules that assign treatment status on the basis of past treatment outcomes. Treatment has an option value. The challenge is that correlation in estimated treatment effects may be driven by correlation in errors rather than correlation in treatment effects. This paper shows how to estimate the value of dynamic assignment rules in observational data, and applies the methodology to Operation Ceasefire, a widely adopted homicide reduction program. Using a newly constructed data-set of adoption events across the US, we argue that programs inspired by Operation Ceasefire generate statistically insignificant reductions in homicide rates on average, but that their effectiveness is significantly improved by dynamic adoption. A naive approach would considerably overestimate these benefits.
+   </div>
 
+3. **New-Car Waves, Used-Car Cascades: The Geography of Replacement (2026)**<br />
+   with [Nico Lukas Kasparetz]
+
+   <div class="paper-buttons">
+   <button type="button" class="paper-button" aria-expanded="false" onclick="toggleAbstract(this)">Abstract</button>
+   <span class="paper-note">Draft coming soon</span>
+   </div>
+   <div class="paper-abstract" hidden>
+   New vehicle launches can trigger waves of vehicle replacement across countries as displaced vehicles are reallocated through international used-car markets. We study how new vehicle launches in Europe affect vehicle replacement in Germany and Romania, an import-dependent market that sources predominantly from Germany. We combine vehicle-level registration records from both countries with launch schedules in Europe and electric vehicle (EV) subsidy schedules in Germany. Exploiting variation in the timing of new vehicle launches and in the similarity between incumbent and newly introduced vehicles, we find that launches increase new vehicle sales and de-registrations of incumbent vehicles in Germany. In Romania, launches do not increase new vehicle sales but increase first-time registrations of used vehicles imported from Germany and de-registrations of generally older and more emissions-intensive incumbent vehicles. The effects are substantially larger for EV launches, partly because of EV subsidies in Germany. Ongoing work develops a dynamic model of vehicle replacement in Germany and Romania to evaluate the effects of alternative German EV subsidy designs on emissions and overall welfare in both countries, including designs that condition subsidies on scrappage and thus prevent displaced vehicles from triggering further waves of replacement abroad.
+   </div>
+{: .paper-list}
+
+## Work in Progress
+
+1. **The Incidence of Overlapping Environmental Regulations**<br />
+   with [Xiang Ma] and [Junming Zhu]
+
+   <div class="paper-buttons">
+   <button type="button" class="paper-button" aria-expanded="false" onclick="toggleAbstract(this)">Abstract</button>
+   </div>
+   <div class="paper-abstract" hidden>
+   When sector-specific environmental policies operate alongside aggregate emissions targets, additional abatement induced in one sector may reduce the abatement required elsewhere. We examine the incidence of aggregate targets when there are concurrent sector-specific policies. Our setting is China’s eleventh Five-Year Plan, which set similar percentage reduction targets for SO₂ emissions across cities while separately imposing substantial abatement requirements on power plants based on their predetermined characteristics. We find that cities achieved similar proportional reductions in aggregate SO₂ emissions, with disproportionately large reductions from power plants. Smaller reductions among other industrial firms offset larger reductions in SO₂ emissions from power plants nearly one-for-one, both as shares of initial citywide emissions and in levels. We then exploit variation in exposure to power-sector requirements arising from predetermined differences in local power sectors and show that greater exposure reduces declines in input demand and output among other industrial firms under the aggregate targets, with effects varying systematically with firm characteristics. Together, the findings show that sector-specific regulations can largely reallocate, rather than increase, aggregate abatement while substantially changing the incidence of compliance.
+   </div>
+
+2. **Clean Today, Dirty Tomorrow: Strategic Emissions under Dynamic Environmental Enforcement**<br />
+   with [Mengdi Liu], [Bing Zhang], and [Junming Zhu]
+
+3. **Long-Term Contracts, Locked-In Coal, and Energy Transition**<br />
+   with [Gabriel Dias Santamarina]
+{: .paper-list}
+
+[Sylvain Chassang]: https://www.sylvainchassang.org/
+[Michal Kolesár]: https://www.princeton.edu/~mkolesar/
+[Nico Lukas Kasparetz]: https://www.uni-mannheim.de/gess/programs/cdse/our-students/2022/nico-kasparetz/
+[Xiang Ma]: https://sites.google.com/site/xiangma6
+[Junming Zhu]: https://www.sppm.tsinghua.edu.cn/english/info/1067/1940.htm
+[Mengdi Liu]: https://liumengdinn.wixsite.com/website
+[Bing Zhang]: https://hjxy.nju.edu.cn/English/Faculty/FulltimeTeacher/DepartmentofEnvironmentalPlanningandManagement/Professors/20230404/i242040.html
+[Gabriel Dias Santamarina]: https://gabrieldiassantamarina.github.io/
+
+<script>
+// Abstract buttons: show or hide the abstract right below the button row.
+function toggleAbstract(button) {
+  var abstract = button.parentElement.nextElementSibling;
+  abstract.hidden = !abstract.hidden;
+  button.setAttribute("aria-expanded", String(!abstract.hidden));
+}
+</script>
