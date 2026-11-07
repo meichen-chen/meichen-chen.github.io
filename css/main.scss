@@ -94,8 +94,9 @@ a:not([href]) {
 .paper-button:hover {
   color: $yale-blue;
 }
+// Notes such as "Draft coming soon": plain (not italic), grey.
 .paper-note {
-  font-style: italic;
+  color: #999;
 }
 // Abstract as on sohyeyoon.com/research: 1em below the links, indented, smaller and dark grey;
 // justified (aligned on both sides).
